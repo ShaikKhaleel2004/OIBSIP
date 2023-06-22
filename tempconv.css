@@ -1,0 +1,114 @@
+#heading {
+    margin: 100px auto 80px;
+}
+body {
+  background-image: url("https://cdn.wallpapersafari.com/14/38/uizAG1.jpg");
+}
+label {
+  color: aqua;
+  margin: 2px 0px 7px auto;
+}
+
+#heading {
+  color: cyan;
+}
+
+.container1 {
+  height: 100px;
+  position: relative;
+  
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1200px) {
+  #heading {
+    width: 100%;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 45%;
+    margin: auto;
+  }
+  .col-md-6 {
+    margin: auto;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
+  
+  
+
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #heading {
+    width: 100%;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 45%;
+    margin: auto;
+  }
+  .col-md-6 {
+    margin: auto;
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #heading {
+    width: 100%;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 45%;
+    margin: auto;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin: auto;
+  }
+ 
+}
+  
+@media (max-width: 767px) {
+  #heading {
+    width: 100%;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 45%;
+    margin: auto;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin: auto;
+  }
+  
+}
+@media (max-width: 479px) {
+  #heading {
+    width: 100%;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 45%;
+    margin: auto;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin: auto;
+  }
+}

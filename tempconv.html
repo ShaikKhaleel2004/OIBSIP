@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="tempconv.css">
+</head>
+<body>
+  <h1 id="heading" class="text-center">Temperature Converter</h1>
+  <div class="container">
+    <section >
+      <div id="content"><form class="needs-validation" novalidate>
+          <div id="items" class="form-row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <label for="validationCustom01">Degrees</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Degrees" required>
+              <hr>
+            </div>
+            <div class="form-group col-md-6 col-sm-12 col-xs-12">
+              <label for="inputState">Temperature Type</label>
+              <select id="inputState" class="form-control">
+                <option selected>Celsius</option>
+                <option>Fahrenheit</option>
+                <option>Others</option>
+              </select>
+              <hr>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <label for="validationDefault05">Result</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+              <hr>
+            </div>
+            </div>
+          </div>
+          <div class="container1">
+            <div class="center">
+              <button onclick="pull()" id="press" class="btn btn-primary" type="submit">Convert</button>
+            </div>
+          </div>
+          
+        </form>
+      </div>
+    </section>
+  </div>
+  
+  
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="tempconv.js"></script>
+</body>
+</html>
